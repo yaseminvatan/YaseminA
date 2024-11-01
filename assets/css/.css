@@ -67,7 +67,25 @@ section {
     height: auto;
     border-radius: 8px;
   }
+
+  /* Contact Links */
+#contact ul {
+    list-style: none;
+    padding: 0;
+  }
   
+  #contact li {
+    margin: 0.5rem 0;
+  }
+  
+  #contact a {
+    color: var(--main-color);
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
   /* Responsive Design */
 @media (max-width: 768px) {
     header nav ul {
