@@ -17,4 +17,28 @@
     color: var(--secondary-color);
     background-color: var(--background-color);
   }
+  /* Header Styling */
+header {
+    background-color: var(--main-color);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: var(--font-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  header nav a {
+    color: var(--font-color);
+    text-decoration: none;
+  }
+  
 
