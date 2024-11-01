@@ -40,5 +40,9 @@ header {
     color: var(--font-color);
     text-decoration: none;
   }
+  /* Smooth scroll effect */
+html {
+    scroll-behavior: smooth;
+  }
   
 
