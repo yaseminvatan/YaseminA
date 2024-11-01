@@ -44,5 +44,28 @@ header {
 html {
     scroll-behavior: smooth;
   }
+  /* Section Styling */
+section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  section#work .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  section#work .projects a {
+    width: calc(50% - 1rem);
+    text-decoration: none;
+  }
+  
+  section#work .projects img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
   
 
